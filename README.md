@@ -29,6 +29,15 @@ APP_ID=your_cftools_app_id
 APP_SECRET=your_cftools_app_secret
 ```
 
+## Creating an Application on CFTools Cloud
+To use the CFTools API, you need to create an application:
+1. Go to the [CFTools Cloud Developer Portal](https://data.cftools.cloud/developer).
+2. Log in with your account.
+3. Navigate to **Applications** and click **Create Application**.
+4. Fill in the required details (name, description, etc.).
+5. Once created, copy your `Application ID` and `Application Secret`.
+6. Add them to your `.env` file as `APP_ID` and `APP_SECRET`.
+
 ## Installation
 ```bash
 git clone https://github.com/yourusername/your-repo-name.git
@@ -53,9 +62,8 @@ This project is licensed under the MIT License.
 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
 ## Author
-- **Arnaud** - [GitHub Profile](https://github.com/yourusername)
+- **Ember** - [GitHub Profile](https://github.com/warlandsDayz)
 
 ---
 
 Happy coding! 🚀
-
