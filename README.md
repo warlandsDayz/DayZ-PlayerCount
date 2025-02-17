@@ -2,6 +2,12 @@
 
 This is a Discord bot that displays the current player count of a DayZ server using the CFTools Cloud API.
 
+Some Preview : 
+
+![{Preview 1](https://github.com/user-attachments/assets/832524f6-433d-4ddc-8c64-f82b832780e3)
+![Preview 2](https://github.com/user-attachments/assets/aff811b7-700b-4ccc-8319-13fc18ca3c66)
+
+
 ## Features
 - Fetches player count from CFTools Cloud API.
 - Updates Discord bot status every 5 minutes with the number of players currently online.
