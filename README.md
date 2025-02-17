@@ -29,13 +29,30 @@ Some Preview :
 ## Environment Variables
 Create a `.env` file with the following:
 ```env
-SERVER_ID=your_discord_server_id
+SERVER_ID=Your DayZ server Hash (See more below)
 SERVER_API_ID=your_cftools_server_api_id
 DISCORD_TOKEN=your_discord_bot_token
 APP_ID=your_cftools_app_id
 APP_SECRET=your_cftools_app_secret
 ```
+```
+Calculate your DayZ server Hash : 
 
+The server_id generates from following datasets:
+IPv4 of the game server
+Gameport of the game server
+Game identifier
+
+Once you have gathered this information, build a string with these parameters in the following order: {game_identifier}{ipv4}{game_port}
+Do not use any spacers or other additional symbols.
+After you have this string use a sha1 hashing function on it. The digest in hexademical form can then be used as server_id.
+
+Example with ipv4 = 127.0.0.1 , game_port = 2302, game_identifier = 1:
+Build string: 1127.0.0.12302
+sha1 hash string sha1(1127.0.0.12302)
+Use hex-digest of hashed string as server_id: c0d1db47b89ade22740fd3b2a5e79393dfc56c90
+
+```
 ## Creating an Application on CFTools Cloud
 To use the CFTools API, you need to create an application:
 1. Go to the [CFTools Cloud Developer Portal](https://data.cftools.cloud/developer).
