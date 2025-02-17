@@ -38,17 +38,29 @@ To use the CFTools API, you need to create an application:
 5. Once created, copy your `Application ID` and `Application Secret`.
 6. Add them to your `.env` file as `APP_ID` and `APP_SECRET`.
 
-## Installation
-```bash
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
-npm install
-```
+## Installation Guide
+### For Windows Users:
+1. Download the project ZIP from GitHub by clicking **Code > Download ZIP**.
+2. Extract the ZIP file to your desired location.
+3. Install [Node.js](https://nodejs.org/).
+4. Open a Command Prompt in the project folder.
+5. Run `npm install` to install dependencies.
+6. Create a `.env` file in the folder with the required environment variables.
+7. Run `node Bot.js` to start the bot.
 
-## Usage
-```bash
-node Bot.js
-```
+### For Linux Users:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/your-repo-name.git
+   cd your-repo-name
+   ```
+2. Install Node.js using your package manager.
+3. Run `npm install` to install dependencies.
+4. Create a `.env` file with the necessary variables.
+5. Start the bot with:
+   ```bash
+   node Bot.js
+   ```
 
 ## Dependencies
 - [discord.js](https://discord.js.org/)
@@ -62,8 +74,12 @@ This project is licensed under the MIT License.
 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
 ## Author
-- **Ember** - [GitHub Profile](https://github.com/warlandsDayz)
+- **Arnaud** - [GitHub Profile](https://github.com/yourusername)
 
 ---
 
+## Help
+If you need help or have questions, feel free to add me on Discord: **ember_design**
+
 Happy coding! 🚀
+
